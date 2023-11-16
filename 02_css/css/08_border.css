@@ -4,8 +4,8 @@
     background-color: skyblue;
     /* border: 1px solid black; */
     border-top: 3px dashed red;
-    border-right: 3px solid green;
-    border-bottom: 3px dashed red;
+    border-right: 3px solid rgb(30, 99, 30);
+    border-bottom: 3px dashed rgb(234, 49, 49);
     border-left: 3px solid yellow;
     box-shadow: 11px -10px 19px -1px gray; 
 }
