@@ -1,0 +1,16 @@
+#gallery{
+    list-style: none;
+    background-color: #000;
+    align-content: center
+
+}
+.pic{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;    
+
+}
