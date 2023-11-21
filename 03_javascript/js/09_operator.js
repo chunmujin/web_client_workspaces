@@ -25,13 +25,13 @@ function test1()
      * 
      * 위의 성질을 이용한 조건문
      */
-    num % 2 == 0 && alert("짝수 입니다!");
-    num % 2 == 0 || hol();
+    num % 2 == 0 && alert("짝수 입니다.");
+    num % 2 == 0 || alert("홀수 입니다.");
 
     if(num % 2 == 0)
         alert("짝수입니다.");
     else
-        alert("홀수입니다..");
+        alert("홀수입니다.");
 
 
     //foo라는 id로 검색
@@ -42,15 +42,9 @@ function test1()
     document.querySelector("#foo") || 
     (document.body.innerHTML +='<div id="foo">🍗🍗🍗🍗🍗🍗</div>');
 }
-function hol()
-{
-    alert("홀수 입니다!");
-}
-
 
 /**
- * ||
- * 
+ * || 값대입연산 
  */
 function test2()
 {
@@ -62,10 +56,11 @@ function test2()
     console.log(c);
 
     //#foo 객체 또는 #bar 객체를 변수 some에 대입.
-    const some = document.querySelector("#foo") || document.querySelector("#bar");
+    const some = document.querySelector("#foo") 
+    || document.querySelector("#bar");
     //test2부터 실행하면 당연히 null
     //test1부터 실행해서 foo 객체를 만들고 
     //다시 test2를 실행하면 some 변수에 foo가 대입.
-    console.log("some은 ",some); // 이따 다시 적기
+    console.log(some); 
 }
   
