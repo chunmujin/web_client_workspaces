@@ -1,7 +1,7 @@
 
 /**
  * 모든 태그객체는 Node와 Element를 상속한다. 
- * 
+ *  
  * - Node
  *  - TextNode
  *  - CommentNode
@@ -77,7 +77,7 @@ document.querySelector("#btn5").addEventListener('click', () => {
  * DOM Traversing
  * - 특정요소에서 DOM Tree를 따라 다음요소를 찾아가는 기술 
  * 
- * Node
+ * Node  (X)
  * - 자식 firstChild | lastChild | childNodes
  * - 부모 parentNode 
  * - 형제 nextSibling | previousSibling

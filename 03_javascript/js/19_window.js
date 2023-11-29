@@ -24,6 +24,7 @@ const test2 = () => {
   // const newWindow = open('01_hellojs.html', '_self'); // 현재 탭을 대체
   console.log(newWindow);
   console.log(newWindow.opener); // 현재창
+  
 
 
   setTimeout(() => {
@@ -33,7 +34,7 @@ const test2 = () => {
     newWindow.opener.alert('🎈🎈🎈');
   }, 3000);
   
-}
+};
 
 /**
  * Timer API - setTimeout

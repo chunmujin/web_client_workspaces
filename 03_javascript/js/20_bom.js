@@ -44,8 +44,8 @@ const test4 = () => {
   // availLeft 가용오프셋(왼)
   // availTop 가용오프셋(위)
 
-  const width = 500;
-  const height = 300;
+  const width = 550;
+  const height = 750;
   const left = (screen.width - width) / 2 + screen.availLeft;
   const top = (screen.height - height) / 2 + screen.availTop;
   const popup = open("", "", `width=${width}, height=${height}, top=${top}, left=${left}`);

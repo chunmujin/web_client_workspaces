@@ -75,7 +75,7 @@ xxx`;
 });
 
 /**
- * 임의의 문자하나 . 
+ * 임의의 문자하나 .
  * - 문자/특수문자/공백 
  * - 개행문자는 처리되지 않음.
  */
@@ -329,12 +329,6 @@ document.querySelector("#password").addEventListener('blur', (e) => {
 
 
 
-
-
-
-
-
-
 /**
  * @실습문제 주민번호
  * - 6자리생년월일-7자리숫자
@@ -350,7 +344,8 @@ document.querySelector("#password").addEventListener('blur', (e) => {
 document.querySelector("#btn-ssn").addEventListener('click', (e) => {
   const ssn = document.querySelector("#ssn");
   // const re = /^[0-9][0-9][0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9][0-9][0-9][0-9]$/;
-  const re = /^\d\d\d\d\d\d-\d\d\d\d\d\d\d$/;
+  // const re = /^\d\d\d\d\d\d-\d\d\d\d\d\d\d$/;
+  const re = /^\d{2}(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|3[01]-[1234]\d{6})$/;
 
   if(re.test(ssn.value)){
     alert('유효한 주민번호입니다.');
