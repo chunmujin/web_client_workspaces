@@ -170,7 +170,7 @@ const renderGuestbooks = () => {
   // localStorage에서 guestbooks 읽어오기
   const guestbooks = JSON.parse(localStorage.getItem("guestbooks")) || [];
 
-  // tr태그로 변환하기 -> tbody 추가하기
+  // tr태그로 변환하기 -> tbody 추가하기 !!!!!!!!!!!
   // const tbody = document.querySelector('table#tb-guestbook tbody');
   // tbody.innerHTML = ''; // 초기화
   
